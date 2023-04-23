@@ -17,7 +17,7 @@ def get_user_text(message):
     elif message.text == ("Id").lower():
         bot.send_message(message.chat.id, f"Hello братан!! your ID: ", {message.from_user.id})
     else:
-        bot.send_message(message.chat.id, f"Hello братан!! your ID: ", {message.from_user.id})
+        bot.send_message(message.chat.id, f"Hello D-U-D-E!! your ID: ", {message.from_user.id})
 
 
 @bot.message_handler(func=lambda message: True)
